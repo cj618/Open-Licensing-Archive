@@ -1,0 +1,35 @@
+id: apache-2.0
+title: Apache License version 2.0
+short_name: Apache 2.0
+spdx_id: Apache-2.0
+family: apache
+era: 2000s
+organisation: Apache Software Foundation
+first_known_date: 2004
+source_url: https://www.apache.org/licenses/LICENSE-2.0
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: compatible-with-gplv3-not-gplv2-only
+license_style: permissive
+key_terms:
+  - attribution
+  - patent-grant
+  - patent-termination
+  - notice-file
+  - warranty-disclaimer
+historical_notes: >
+  Apache-2.0 is a major modern permissive licence with explicit patent grant and
+  patent termination provisions. It is important for understanding corporate open
+  source and permissive licensing in the 2000s.
+verification_notes: >
+  Seeded from Apache Software Foundation canonical text. Cross-check SPDX, OSI,
+  and FSF status in validation pass.
+related_licenses:
+  - apache-1.1
+  - mit-x11
+  - bsd-3-clause
