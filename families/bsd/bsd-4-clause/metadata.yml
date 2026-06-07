@@ -1,0 +1,32 @@
+id: bsd-4-clause
+title: BSD 4-Clause License
+short_name: BSD 4-Clause
+spdx_id: BSD-4-Clause
+family: bsd
+era: 1980s
+organisation: Regents of the University of California
+source_url: https://spdx.org/licenses/BSD-4-Clause.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-structured-baseline
+osi_approved: true
+fsf_free: true
+gpl_compatible: false
+license_style: permissive
+key_terms:
+  - attribution
+  - advertising-clause
+  - warranty-disclaimer
+historical_notes: >
+  Historically significant permissive BSD-family licence variant containing the
+  advertising clause. It is important for understanding later BSD simplification
+  into the 3-clause and 2-clause forms.
+verification_notes: >
+  Seeded from the SPDX baseline. A later pass should add exact source-tree
+  provenance from UC Berkeley releases and distinguish historical UC Regents
+  notices from generic modern formulations.
+related_licenses:
+  - bsd-3-clause
+  - bsd-2-clause
