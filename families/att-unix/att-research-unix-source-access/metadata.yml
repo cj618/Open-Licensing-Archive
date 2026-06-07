@@ -1,0 +1,35 @@
+id: att-research-unix-source-access
+title: AT&T / Western Electric Research Unix source access material
+short_name: AT&T Research Unix source access
+spdx_id: null
+family: att-unix
+era: 1970s
+organisation: AT&T / Western Electric / Bell Laboratories
+first_known_date: null
+source_url: null
+archive_url: null
+source_type: agreement
+redistribution_status: metadata-only
+text_status: pointer-only
+verification: needs-review
+osi_approved: false
+fsf_free: false
+gpl_compatible: false
+license_style: proprietary-source-access
+key_terms:
+  - source-access
+  - research-use
+  - educational-use
+  - redistribution-restriction
+historical_notes: >
+  Early Unix source access was governed by limited-use arrangements rather than
+  modern open source terms. This entry is included to anchor the archive's Unix
+  licensing timeline and to explain the later significance of BSD and GNU.
+verification_notes: >
+  Metadata-only seed entry. Do not add full text until a specific primary source
+  document has been identified and reviewed for provenance and redistribution
+  status. Next step: identify particular Research Unix, 32V, or Western Electric
+  documents and record exact source details.
+related_licenses:
+  - bsd-4-clause
+  - gpl-1.0
