@@ -1,0 +1,32 @@
+id: gpl-1.0
+title: GNU General Public License version 1
+short_name: GPL 1.0
+spdx_id: GPL-1.0-only
+family: gnu
+era: 1980s
+organisation: Free Software Foundation
+first_known_date: 1989
+source_url: https://www.gnu.org/licenses/gpl-1.0.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: false
+fsf_free: true
+gpl_compatible: n/a
+license_style: strong-copyleft
+key_terms:
+  - copyleft
+  - source-availability
+  - warranty-disclaimer
+historical_notes: >
+  First version of the GNU General Public License. It is important for the
+  archive because it formalises the early GNU copyleft response to proprietary
+  source restrictions and provides a baseline for later GPLv2 and GPLv3 changes.
+verification_notes: >
+  Seeded from the GNU Project canonical text. Add source-tree examples from
+  early GNU packages in a later pass.
+related_licenses:
+  - gpl-2.0
+  - gpl-3.0
