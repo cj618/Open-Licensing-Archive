@@ -1,0 +1,32 @@
+id: agpl-3.0
+title: GNU Affero General Public License version 3
+short_name: AGPL 3.0
+spdx_id: AGPL-3.0-only
+family: gnu
+era: 2000s
+organisation: Free Software Foundation
+first_known_date: 2007
+source_url: https://www.gnu.org/licenses/agpl-3.0.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: compatible-with-gplv3-under-section-13
+license_style: strong-copyleft
+key_terms:
+  - copyleft
+  - network-use
+  - source-availability
+  - patent-provisions
+  - warranty-disclaimer
+historical_notes: >
+  AGPLv3 is important for the archive's modern comparison work because it
+  addresses network-service deployment, a problem that later source-available
+  and anti-cloud licences would also target in different ways.
+verification_notes: >
+  Seeded from the GNU Project canonical text.
+related_licenses:
+  - gpl-3.0
