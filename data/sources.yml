@@ -1,0 +1,149 @@
+# Source registry
+
+authoritative_baselines:
+  - id: spdx-license-list
+    name: SPDX License List
+    url: https://spdx.org/licenses/
+    use: Standard identifiers, canonical URLs, licence texts, FSF free/libre flag, OSI approval flag, and exception identifiers.
+    notes: Use for cross-reference and identifier consistency, not as a substitute for historical source-tree provenance.
+
+  - id: osi-license-list
+    name: Open Source Initiative licence list
+    url: https://opensource.org/license
+    use: OSI approval status and approved licence texts.
+    notes: Use for open-source approval status. Do not assume OSI approval for historical variants unless specifically listed.
+
+  - id: gnu-license-list
+    name: GNU Project / FSF licence commentary
+    url: https://www.gnu.org/licenses/license-list.html
+    use: FSF commentary on whether licences are free software licences and whether they are GPL-compatible.
+    notes: Useful for free-software classification and compatibility notes.
+
+  - id: scancode-licensedb
+    name: ScanCode LicenseDB
+    url: https://scancode-licensedb.aboutcode.org/
+    use: Variant discovery and text comparison.
+    notes: Treat as a structured secondary baseline unless it points to a stronger primary source.
+
+  - id: software-heritage
+    name: Software Heritage
+    url: https://www.softwareheritage.org/
+    use: Source-tree and release provenance.
+    notes: Useful for historical source snapshots and verifying exact source-tree notices.
+
+project_and_vendor_sources:
+  - id: gnu-licenses
+    name: GNU Licenses
+    url: https://www.gnu.org/licenses/licenses.html
+    families: [gnu]
+
+  - id: apache-licenses
+    name: Apache Software Foundation Licenses
+    url: https://www.apache.org/licenses/
+    families: [apache]
+
+  - id: mozilla-mpl
+    name: Mozilla Public License
+    url: https://www.mozilla.org/en-US/MPL/
+    families: [mozilla-netscape]
+
+  - id: eclipse-legal
+    name: Eclipse Foundation legal resources
+    url: https://www.eclipse.org/legal/
+    families: [ibm-eclipse]
+
+  - id: apple-open-source
+    name: Apple Open Source
+    url: https://opensource.apple.com/
+    families: [next-apple]
+
+  - id: apple-apsl
+    name: Apple Public Source License
+    url: https://opensource.apple.com/apsl/
+    families: [next-apple]
+
+  - id: openbsd-policy
+    name: OpenBSD Copyright Policy
+    url: https://www.openbsd.org/policy.html
+    families: [bsd]
+
+  - id: freebsd-copyright
+    name: FreeBSD Copyright
+    url: https://www.freebsd.org/copyright/
+    families: [bsd]
+
+  - id: netbsd-licensing
+    name: NetBSD licensing and redistribution information
+    url: https://www.netbsd.org/about/redistribution.html
+    families: [bsd]
+
+  - id: postgresql-license
+    name: PostgreSQL Licence
+    url: https://www.postgresql.org/about/licence/
+    families: [postgres]
+
+  - id: openssl-license
+    name: OpenSSL License
+    url: https://www.openssl.org/source/license.html
+    families: [databases-crypto-infra]
+
+  - id: python-license
+    name: Python Software Foundation License information
+    url: https://docs.python.org/3/license.html
+    families: [scripting-languages]
+
+  - id: perl-licensing
+    name: Perl licensing information
+    url: https://dev.perl.org/licenses/
+    families: [scripting-languages]
+
+  - id: tcl-license
+    name: Tcl/Tk License Terms
+    url: https://www.tcl-lang.org/software/tcltk/license.html
+    families: [scripting-languages]
+
+modern_sources:
+  - id: mariadb-bsl
+    name: Business Source License 1.1
+    url: https://mariadb.com/bsl11/
+    families: [source-available-modern]
+
+  - id: mongodb-sspl
+    name: Server Side Public License
+    url: https://www.mongodb.com/licensing/server-side-public-license
+    families: [source-available-modern]
+
+  - id: elastic-license
+    name: Elastic licensing
+    url: https://www.elastic.co/licensing
+    families: [source-available-modern]
+
+  - id: commons-clause
+    name: Commons Clause
+    url: https://commonsclause.com/
+    families: [source-available-modern]
+
+  - id: polyform
+    name: PolyForm Project
+    url: https://polyformproject.org/licenses/
+    families: [source-available-modern]
+
+  - id: functional-source-license
+    name: Functional Source License
+    url: https://fsl.software/
+    families: [source-available-modern]
+
+  - id: creative-commons
+    name: Creative Commons Licenses
+    url: https://creativecommons.org/licenses/
+    families: [modern-comparison]
+
+  - id: cdla
+    name: Community Data License Agreement
+    url: https://cdla.dev/
+    families: [modern-comparison]
+
+  - id: cern-ohl
+    name: CERN Open Hardware Licence
+    url: https://cern-ohl.web.cern.ch/
+    families: [modern-comparison]
