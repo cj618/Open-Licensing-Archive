@@ -1,0 +1,34 @@
+id: sspl-1.0
+title: Server Side Public License version 1
+short_name: SSPL 1.0
+spdx_id: SSPL-1.0
+family: source-available-modern
+era: modern
+organisation: MongoDB, Inc.
+first_known_date: 2018
+source_url: https://www.mongodb.com/licensing/server-side-public-license
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: false
+fsf_free: false
+gpl_compatible: false
+license_style: source-available
+key_terms:
+  - source-available
+  - network-use
+  - service-provider-obligation
+  - copyleft-like
+historical_notes: >
+  SSPL is important for modern comparison because it responds to cloud-service
+  use of open source database software. It should be contrasted with AGPL's
+  network-use copyleft and with non-open-source source-available models.
+verification_notes: >
+  Seeded from MongoDB licensing materials. Record OSI and FSF treatment in a
+  later validation pass with source citations.
+related_licenses:
+  - agpl-3.0
+  - business-source-license-1.1
+  - commons-clause-1.0
