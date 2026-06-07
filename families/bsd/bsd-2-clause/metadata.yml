@@ -1,0 +1,30 @@
+id: bsd-2-clause
+title: BSD 2-Clause License
+short_name: BSD 2-Clause
+spdx_id: BSD-2-Clause
+family: bsd
+era: 1990s
+organisation: Regents of the University of California
+source_url: https://spdx.org/licenses/BSD-2-Clause.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-structured-baseline
+osi_approved: true
+fsf_free: true
+gpl_compatible: true
+license_style: permissive
+key_terms:
+  - attribution
+  - warranty-disclaimer
+historical_notes: >
+  Simplified permissive BSD-family licence form. It is one of the standard
+  permissive open source licences and is useful for comparison with MIT/X11,
+  ISC, PostgreSQL, and later corporate permissive licences.
+verification_notes: >
+  Seeded from the SPDX baseline. A later pass should add exact historical
+  project provenance and note variant-specific wording.
+related_licenses:
+  - bsd-4-clause
+  - bsd-3-clause
