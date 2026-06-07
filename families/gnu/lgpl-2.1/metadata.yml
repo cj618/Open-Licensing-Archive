@@ -1,0 +1,32 @@
+id: lgpl-2.1
+title: GNU Lesser General Public License version 2.1
+short_name: LGPL 2.1
+spdx_id: LGPL-2.1-only
+family: gnu
+era: 1990s
+organisation: Free Software Foundation
+first_known_date: 1999
+source_url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: compatible-by-design
+license_style: weak-copyleft
+key_terms:
+  - library-copyleft
+  - source-availability
+  - linking
+  - warranty-disclaimer
+historical_notes: >
+  The LGPL family is important for libraries and language/runtime ecosystems,
+  where the FSF accepted a weaker reciprocal model to encourage adoption while
+  preserving modification rights in the covered library.
+verification_notes: >
+  Seeded from the GNU Project canonical text.
+related_licenses:
+  - gpl-2.0
+  - gpl-3.0
