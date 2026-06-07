@@ -1,0 +1,181 @@
+# Initial collection priorities for Open Licensing Archive
+
+priority_families:
+  - id: att-unix
+    label: AT&T / Bell Labs / Western Electric / USL / Novell Unix
+    priority: 1
+    era_focus: [1970s, 1980s, 1990s]
+    notes: Source-available but generally not open-source in the modern sense. Capture agreements, notices, release terms, and later litigation/context material carefully.
+    target_entries:
+      - Research Unix source licence material
+      - Western Electric notices
+      - 32V source distribution terms
+      - UNIX System V / USL material
+      - Novell Unix ownership/licensing context
+
+  - id: bsd
+    label: Berkeley Software Distribution / University of California
+    priority: 1
+    era_focus: [1980s, 1990s]
+    notes: Central to the permissive licensing tradition and Unix liberation from AT&T encumbrances.
+    target_entries:
+      - 4-clause BSD
+      - 3-clause BSD
+      - 2-clause BSD
+      - Net/2 notices
+      - 386BSD, FreeBSD, NetBSD, OpenBSD notices
+
+  - id: gnu
+    label: GNU / Free Software Foundation
+    priority: 1
+    era_focus: [1980s, 1990s, 2000s]
+    notes: Central copyleft family responding to proprietary Unix and vendor lock-in.
+    target_entries:
+      - GPLv1
+      - GPLv2
+      - GPLv3
+      - LGPL family
+      - AGPLv3
+      - GFDL
+      - Autoconf exception
+      - Classpath exception
+
+  - id: sun
+    label: Sun Microsystems / Solaris / OpenSolaris / Java
+    priority: 1
+    era_focus: [1980s, 1990s, 2000s]
+    notes: Major workstation and Unix vendor; important corporate open source and CDDL/OpenSolaris history.
+    target_entries:
+      - SunOS notices
+      - Sun RPC licensing
+      - Sun Public License
+      - CDDL
+      - OpenSolaris source licensing
+      - Java source licensing milestones
+
+  - id: sco-caldera
+    label: SCO / Santa Cruz Operation / Caldera / UnixWare / OpenServer
+    priority: 1
+    era_focus: [1980s, 1990s, 2000s]
+    notes: Important for commercial Unix, source availability, and Unix/Linux licensing disputes.
+    target_entries:
+      - SCO OpenServer material
+      - UnixWare notices
+      - Caldera source releases
+      - SCO ancient Unix release material
+      - public statements and licence texts where primary-source available
+
+  - id: sgi
+    label: Silicon Graphics / IRIX / XFS / OpenGL / Open Inventor
+    priority: 1
+    era_focus: [1990s, 2000s]
+    notes: Major workstation company with important open-source and source-release experiments.
+    target_entries:
+      - SGI Free Software License variants
+      - XFS release terms
+      - Open Inventor licence material
+      - OpenGL-related licensing context
+
+  - id: next-apple
+    label: NeXT / Apple / Darwin / APSL
+    priority: 1
+    era_focus: [1980s, 1990s, 2000s]
+    notes: Useful bridge between workstation Unix, Mach/BSD, commercial platforms, and Darwin open source.
+    target_entries:
+      - NeXTSTEP / OpenStep notices
+      - Darwin source licence materials
+      - APSL 1.x
+      - APSL 2.0
+      - Apple open source release notices
+
+  - id: ibm-eclipse
+    label: IBM / AIX / Jikes / CPL / Eclipse
+    priority: 2
+    era_focus: [1990s, 2000s]
+    notes: Corporate open source, patent language, and foundation-based licensing.
+    target_entries:
+      - IBM Public License
+      - Common Public License
+      - Eclipse Public License 1.0
+      - Eclipse Public License 2.0
+      - Jikes licence material
+
+  - id: mit-x11-athena
+    label: MIT / X11 / Athena / Kerberos
+    priority: 2
+    era_focus: [1980s, 1990s]
+    notes: Core permissive university/network computing tradition.
+    target_entries:
+      - MIT License
+      - X11 License
+      - Athena notices
+      - Kerberos notices
+
+  - id: cmu-utah-mach
+    label: CMU / Mach / University of Utah / Flux / OSKit
+    priority: 2
+    era_focus: [1980s, 1990s]
+    notes: Operating-system research licensing and BSD/Mach lineage.
+    target_entries:
+      - CMU Mach notices
+      - Utah Flux OSKit notices
+      - Lites and Mach/BSD-related research notices
+
+  - id: mozilla-netscape
+    label: Netscape / Mozilla
+    priority: 2
+    era_focus: [1990s, 2000s]
+    notes: Major public-company source release and weak-copyleft licensing lineage.
+    target_entries:
+      - Netscape Public License
+      - Mozilla Public License 1.0
+      - Mozilla Public License 1.1
+      - Mozilla Public License 2.0
+
+  - id: apache
+    label: Apache / NCSA / web infrastructure
+    priority: 2
+    era_focus: [1990s, 2000s]
+    notes: Permissive web-server licensing, contributor practice, patent language in Apache-2.0.
+    target_entries:
+      - NCSA License
+      - Apache License 1.0
+      - Apache License 1.1
+      - Apache License 2.0
+
+  - id: scripting-languages
+    label: Perl / Python / Tcl/Tk / Ruby
+    priority: 2
+    era_focus: [1990s, 2000s]
+    notes: Language ecosystem licensing, dual licensing, and permissive notices.
+    target_entries:
+      - Artistic License 1.0
+      - Artistic License 2.0
+      - Perl dual-license notice
+      - Python licence variants
+      - Tcl/Tk License
+      - Ruby License
+
+  - id: databases-crypto-infra
+    label: PostgreSQL / Sendmail / OpenSSL / infrastructure
+    priority: 2
+    era_focus: [1990s, 2000s]
+    notes: Major infrastructure licences with long practical consequences.
+    target_entries:
+      - PostgreSQL License
+      - Sendmail License
+      - OpenSSL License
+      - SSLeay License
+
+  - id: source-available-modern
+    label: Modern source-available and cloud-era licensing
+    priority: 3
+    era_focus: [modern]
+    notes: Useful comparison with historical source-available Unix and modern anti-cloud clauses.
+    target_entries:
+      - Business Source License
+      - Server Side Public License
+      - Elastic License
+      - Commons Clause
+      - PolyForm licences
+      - Functional Source License
