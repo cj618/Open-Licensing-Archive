@@ -1,0 +1,31 @@
+id: bsd-3-clause
+title: BSD 3-Clause License
+short_name: BSD 3-Clause
+spdx_id: BSD-3-Clause
+family: bsd
+era: 1990s
+organisation: Regents of the University of California
+source_url: https://spdx.org/licenses/BSD-3-Clause.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-structured-baseline
+osi_approved: true
+fsf_free: true
+gpl_compatible: true
+license_style: permissive
+key_terms:
+  - attribution
+  - non-endorsement
+  - warranty-disclaimer
+historical_notes: >
+  Permissive BSD-family licence form that removes the advertising clause while
+  retaining attribution, redistribution, non-endorsement, and warranty disclaimer
+  terms. It became one of the standard modern BSD formulations.
+verification_notes: >
+  Seeded from the SPDX baseline. A later pass should add exact historical source
+  provenance and distinguish project-specific BSD-style variants.
+related_licenses:
+  - bsd-4-clause
+  - bsd-2-clause
