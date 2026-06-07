@@ -1,0 +1,35 @@
+id: mpl-2.0
+title: Mozilla Public License version 2.0
+short_name: MPL 2.0
+spdx_id: MPL-2.0
+family: mozilla-netscape
+era: 2000s
+organisation: Mozilla Foundation
+first_known_date: 2012
+source_url: https://www.mozilla.org/en-US/MPL/2.0/
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: compatible-with-gplv2-or-later-by-election-mechanism
+license_style: weak-copyleft
+key_terms:
+  - file-level-copyleft
+  - patent-grant
+  - source-availability
+  - warranty-disclaimer
+historical_notes: >
+  MPL 2.0 is a modernised file-level copyleft licence and a key descendant of
+  the Netscape/Mozilla source-release tradition. It is useful for comparison
+  with CDDL, EPL, LGPL, and corporate open source licensing.
+verification_notes: >
+  Seeded from Mozilla canonical text. Earlier MPL and Netscape Public License
+  entries should be added separately because they are historically distinct.
+related_licenses:
+  - netscape-public-license
+  - mpl-1.1
+  - cddl-1.0
+  - epl-2.0
