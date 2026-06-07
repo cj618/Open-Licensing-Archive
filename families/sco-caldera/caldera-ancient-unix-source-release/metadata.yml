@@ -1,0 +1,32 @@
+id: caldera-ancient-unix-source-release
+title: Caldera ancient Unix source release material
+short_name: Caldera ancient Unix source release
+spdx_id: null
+family: sco-caldera
+era: 2000s
+organisation: Caldera International / SCO-related Unix lineage
+first_known_date: null
+source_url: null
+archive_url: null
+source_type: source-release-notice
+redistribution_status: metadata-only
+text_status: pointer-only
+verification: needs-review
+osi_approved: unknown
+fsf_free: unknown
+gpl_compatible: unknown
+license_style: source-available
+key_terms:
+  - unix-history
+  - source-release
+  - redistribution-status-needs-review
+historical_notes: >
+  Caldera-related ancient Unix source-release material is historically important
+  because it connects commercial Unix ownership history with later public access
+  to early Unix source. It should be researched carefully before adding text.
+verification_notes: >
+  Metadata-only seed entry. Next step: identify the exact Caldera release notice,
+  date, archive URL, and redistribution terms before deciding whether full text
+  belongs in the archive.
+related_licenses:
+  - att-research-unix-source-access
