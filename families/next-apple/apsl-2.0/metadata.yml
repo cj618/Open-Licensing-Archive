@@ -1,0 +1,35 @@
+id: apsl-2.0
+title: Apple Public Source License version 2.0
+short_name: APSL 2.0
+spdx_id: APSL-2.0
+family: next-apple
+era: 2000s
+organisation: Apple Inc.
+first_known_date: 2003
+source_url: https://opensource.apple.com/apsl/
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: false
+license_style: corporate-open-source
+key_terms:
+  - source-availability
+  - file-level-reciprocity
+  - patent-provisions
+  - external-deployment
+  - warranty-disclaimer
+historical_notes: >
+  APSL 2.0 is important to the Darwin and Apple open source story and is a major
+  example of a corporate public source licence attached to a Unix-derived
+  operating-system platform.
+verification_notes: >
+  Seeded from Apple's APSL page. Earlier APSL versions should be added as
+  separate entries because their free-software and open-source status may differ.
+related_licenses:
+  - cddl-1.0
+  - mpl-2.0
+  - gpl-2.0
