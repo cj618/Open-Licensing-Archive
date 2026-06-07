@@ -1,0 +1,33 @@
+id: commons-clause-1.0
+title: Commons Clause License Condition version 1.0
+short_name: Commons Clause 1.0
+spdx_id: LicenseRef-Commons-Clause
+family: source-available-modern
+era: modern
+organisation: Commons Clause project
+first_known_date: 2018
+source_url: https://commonsclause.com/
+archive_url: null
+source_type: license-condition
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: false
+fsf_free: false
+gpl_compatible: false
+license_style: source-available
+key_terms:
+  - source-available
+  - commercial-restriction
+  - licence-addendum
+historical_notes: >
+  Commons Clause is important as a modern add-on restriction that attempts to
+  preserve source visibility while restricting commercial exploitation. It is a
+  useful comparison point for older proprietary source-access terms and modern
+  open-core licensing.
+verification_notes: >
+  Seeded from the Commons Clause project page. Later work should identify common
+  base licences used with this condition and record project examples.
+related_licenses:
+  - business-source-license-1.1
+  - sspl-1.0
