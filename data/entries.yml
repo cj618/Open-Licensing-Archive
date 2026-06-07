@@ -1,0 +1,125 @@
+# Entry index
+#
+# This file is a high-level catalogue of archive entries. Detailed records live under
+# families/<family>/<entry-id>/metadata.yml.
+
+entries:
+  - id: bsd-4-clause
+    family: bsd
+    path: families/bsd/bsd-4-clause/metadata.yml
+    status: seeded
+
+  - id: bsd-3-clause
+    family: bsd
+    path: families/bsd/bsd-3-clause/metadata.yml
+    status: seeded
+
+  - id: bsd-2-clause
+    family: bsd
+    path: families/bsd/bsd-2-clause/metadata.yml
+    status: seeded
+
+  - id: mit-x11
+    family: mit-x11-athena
+    path: families/mit-x11-athena/mit-x11/metadata.yml
+    status: seeded
+
+  - id: gpl-1.0
+    family: gnu
+    path: families/gnu/gpl-1.0/metadata.yml
+    status: seeded
+
+  - id: gpl-2.0
+    family: gnu
+    path: families/gnu/gpl-2.0/metadata.yml
+    status: seeded
+
+  - id: gpl-3.0
+    family: gnu
+    path: families/gnu/gpl-3.0/metadata.yml
+    status: seeded
+
+  - id: lgpl-2.1
+    family: gnu
+    path: families/gnu/lgpl-2.1/metadata.yml
+    status: seeded
+
+  - id: agpl-3.0
+    family: gnu
+    path: families/gnu/agpl-3.0/metadata.yml
+    status: seeded
+
+  - id: apsl-2.0
+    family: next-apple
+    path: families/next-apple/apsl-2.0/metadata.yml
+    status: seeded
+
+  - id: cddl-1.0
+    family: sun
+    path: families/sun/cddl-1.0/metadata.yml
+    status: seeded
+
+  - id: apache-2.0
+    family: apache
+    path: families/apache/apache-2.0/metadata.yml
+    status: seeded
+
+  - id: mpl-2.0
+    family: mozilla-netscape
+    path: families/mozilla-netscape/mpl-2.0/metadata.yml
+    status: seeded
+
+  - id: epl-2.0
+    family: ibm-eclipse
+    path: families/ibm-eclipse/epl-2.0/metadata.yml
+    status: seeded
+
+  - id: artistic-1.0
+    family: scripting-languages
+    path: families/scripting-languages/artistic-1.0/metadata.yml
+    status: seeded
+
+  - id: python-2.0.1-license
+    family: scripting-languages
+    path: families/scripting-languages/python-2.0.1-license/metadata.yml
+    status: seeded
+
+  - id: postgresql-license
+    family: databases-crypto-infra
+    path: families/databases-crypto-infra/postgresql-license/metadata.yml
+    status: seeded
+
+  - id: openssl-license-ssleay
+    family: databases-crypto-infra
+    path: families/databases-crypto-infra/openssl-license-ssleay/metadata.yml
+    status: seeded
+
+  - id: att-research-unix-source-access
+    family: att-unix
+    path: families/att-unix/att-research-unix-source-access/metadata.yml
+    status: metadata-only-seeded
+
+  - id: caldera-ancient-unix-source-release
+    family: sco-caldera
+    path: families/sco-caldera/caldera-ancient-unix-source-release/metadata.yml
+    status: metadata-only-seeded
+
+  - id: sgi-free-software-license-b
+    family: sgi
+    path: families/sgi/sgi-free-software-license-b/metadata.yml
+    status: seeded
+
+  - id: business-source-license-1.1
+    family: source-available-modern
+    path: families/source-available-modern/business-source-license-1.1/metadata.yml
+    status: seeded
+
+  - id: sspl-1.0
+    family: source-available-modern
+    path: families/source-available-modern/sspl-1.0/metadata.yml
+    status: seeded
+
+  - id: commons-clause-1.0
+    family: source-available-modern
+    path: families/source-available-modern/commons-clause-1.0/metadata.yml
+    status: seeded
