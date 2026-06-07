@@ -1,0 +1,32 @@
+id: mit-x11
+title: MIT / X11 License
+short_name: MIT/X11
+spdx_id: MIT
+family: mit-x11-athena
+era: 1980s
+organisation: Massachusetts Institute of Technology / X Consortium
+first_known_date: null
+source_url: https://spdx.org/licenses/MIT.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-structured-baseline
+osi_approved: true
+fsf_free: true
+gpl_compatible: true
+license_style: permissive
+key_terms:
+  - attribution
+  - warranty-disclaimer
+historical_notes: >
+  MIT/X11-style licensing is one of the core academic permissive traditions and
+  is central to the X Window System, Project Athena, and later Unix-like open
+  source ecosystems.
+verification_notes: >
+  Seeded from the SPDX MIT baseline. Later work should separate modern short-form
+  MIT text from historical X11/X Consortium and Athena wording where appropriate.
+related_licenses:
+  - bsd-2-clause
+  - bsd-3-clause
+  - isc
