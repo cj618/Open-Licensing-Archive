@@ -1,0 +1,32 @@
+id: postgresql-license
+title: PostgreSQL License
+short_name: PostgreSQL License
+spdx_id: PostgreSQL
+family: databases-crypto-infra
+era: 1990s
+organisation: PostgreSQL Global Development Group
+first_known_date: null
+source_url: https://www.postgresql.org/about/licence/
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: true
+license_style: permissive
+key_terms:
+  - attribution
+  - warranty-disclaimer
+historical_notes: >
+  PostgreSQL's licence is a short permissive licence in the BSD tradition and is
+  historically important for open database systems and commercial-friendly open
+  source infrastructure.
+verification_notes: >
+  Seeded from PostgreSQL project licence page. Later work should connect this to
+  Ingres/Postgres historical source releases where appropriate.
+related_licenses:
+  - bsd-2-clause
+  - bsd-3-clause
+  - mit-x11
