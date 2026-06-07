@@ -1,0 +1,34 @@
+id: gpl-3.0
+title: GNU General Public License version 3
+short_name: GPL 3.0
+spdx_id: GPL-3.0-only
+family: gnu
+era: 2000s
+organisation: Free Software Foundation
+first_known_date: 2007
+source_url: https://www.gnu.org/licenses/gpl-3.0.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: n/a
+license_style: strong-copyleft
+key_terms:
+  - copyleft
+  - source-availability
+  - patent-provisions
+  - anti-tivoization
+  - warranty-disclaimer
+historical_notes: >
+  GPLv3 is historically important for its response to software patents,
+  anti-circumvention law, appliance lock-down, and compatibility problems that
+  had become prominent after GPLv2's 1990s adoption.
+verification_notes: >
+  Seeded from the GNU Project canonical text.
+related_licenses:
+  - gpl-2.0
+  - lgpl-3.0
+  - agpl-3.0
