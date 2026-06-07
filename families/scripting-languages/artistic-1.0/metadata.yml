@@ -1,0 +1,33 @@
+id: artistic-1.0
+title: Artistic License 1.0
+short_name: Artistic 1.0
+spdx_id: Artistic-1.0
+family: scripting-languages
+era: 1990s
+organisation: Perl community / Larry Wall
+first_known_date: null
+source_url: https://dev.perl.org/licenses/artistic.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: false
+license_style: permissive
+key_terms:
+  - modification-conditions
+  - redistribution
+  - warranty-disclaimer
+historical_notes: >
+  Artistic License 1.0 is historically important because of Perl and the
+  long-standing Perl dual-licensing practice with GPL. It reflects the licensing
+  culture of practical Unix scripting ecosystems in the 1990s.
+verification_notes: >
+  Seeded from Perl licensing material. Later work should add Artistic 2.0 and
+  source-tree examples from Perl releases.
+related_licenses:
+  - artistic-2.0
+  - gpl-1.0
+  - gpl-2.0
