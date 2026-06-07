@@ -1,0 +1,35 @@
+id: epl-2.0
+title: Eclipse Public License version 2.0
+short_name: EPL 2.0
+spdx_id: EPL-2.0
+family: ibm-eclipse
+era: 2000s
+organisation: Eclipse Foundation
+first_known_date: 2017
+source_url: https://www.eclipse.org/legal/epl-2.0/
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: optional-secondary-license-mechanism
+license_style: weak-copyleft
+key_terms:
+  - weak-copyleft
+  - patent-grant
+  - secondary-license
+  - warranty-disclaimer
+historical_notes: >
+  EPL 2.0 is a mature corporate/foundation weak-copyleft licence descended from
+  IBM and Eclipse licensing practice. It is important for comparison with CPL,
+  MPL, CDDL, and LGPL.
+verification_notes: >
+  Seeded from Eclipse Foundation canonical text. Add CPL and EPL 1.0 entries in
+  a later pass to show the IBM-to-Eclipse lineage.
+related_licenses:
+  - common-public-license-1.0
+  - epl-1.0
+  - mpl-2.0
+  - cddl-1.0
