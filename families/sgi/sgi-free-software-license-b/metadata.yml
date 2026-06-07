@@ -1,0 +1,30 @@
+id: sgi-free-software-license-b
+title: SGI Free Software License B
+short_name: SGI Free Software License B
+spdx_id: SGI-B-2.0
+family: sgi
+era: 2000s
+organisation: Silicon Graphics, Inc.
+first_known_date: null
+source_url: https://spdx.org/licenses/SGI-B-2.0.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-structured-baseline
+osi_approved: true
+fsf_free: true
+gpl_compatible: true
+license_style: permissive
+key_terms:
+  - attribution
+  - warranty-disclaimer
+historical_notes: >
+  SGI Free Software License B is important for tracking SGI's transition from
+  proprietary workstation Unix culture into selected open source releases.
+verification_notes: >
+  Seeded from SPDX baseline. Later work should add exact SGI source-release
+  provenance, especially for XFS and Open Inventor material.
+related_licenses:
+  - bsd-3-clause
+  - mit-x11
