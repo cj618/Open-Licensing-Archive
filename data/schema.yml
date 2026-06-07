@@ -1,0 +1,119 @@
+# Metadata schema for archive entries
+
+required_fields:
+  id:
+    description: Stable archive identifier.
+    example: bsd-4-clause-uc-regents
+  title:
+    description: Full title of the licence or licensing document.
+    example: BSD 4-Clause License
+  short_name:
+    description: Human-readable short name.
+    example: BSD-4-Clause
+  family:
+    description: Historical or organisational family.
+    example: bsd
+  era:
+    description: Historical era.
+    allowed:
+      - 1970s
+      - 1980s
+      - 1990s
+      - 2000s
+      - modern
+  organisation:
+    description: Entity most closely associated with the licence.
+    example: Regents of the University of California
+  source_type:
+    description: Type of source document.
+    allowed:
+      - canonical-license
+      - source-header
+      - notice
+      - readme
+      - agreement
+      - manual
+      - faq
+      - press-release
+      - commentary
+      - metadata-only
+      - unknown
+  redistribution_status:
+    description: Whether the archive should store full text or only metadata.
+    allowed:
+      - full-text-ok
+      - metadata-only
+      - unknown
+      - do-not-redistribute
+  text_status:
+    description: Status of text transcription.
+    allowed:
+      - exact
+      - normalised
+      - excerpt
+      - pointer-only
+      - unverified
+  verification:
+    description: Provenance quality.
+    allowed:
+      - primary-source
+      - reputable-secondary
+      - unverified
+      - needs-review
+
+optional_fields:
+  spdx_id:
+    description: SPDX identifier, where one exists.
+  osi_approved:
+    description: Whether the licence is OSI-approved.
+    type: boolean_or_unknown
+  fsf_free:
+    description: Whether the FSF treats the licence as free software.
+    type: boolean_or_unknown
+  gpl_compatible:
+    description: GPL compatibility, if known.
+    type: string_or_unknown
+  first_known_date:
+    description: Earliest known date for this text or variant.
+  jurisdiction:
+    description: Jurisdiction or governing-law information if stated.
+  source_url:
+    description: Original or best available source URL.
+  archive_url:
+    description: Internet Archive, Software Heritage, vendor archive, or mirror URL.
+  source_sha256:
+    description: Hash of source file where available.
+  license_style:
+    description: Functional classification.
+    allowed:
+      - proprietary-source-access
+      - permissive
+      - strong-copyleft
+      - weak-copyleft
+      - corporate-open-source
+      - source-available
+      - public-domain
+      - documentation
+      - data
+      - hardware
+      - model
+      - unknown
+  key_terms:
+    description: Short tags for major operative features.
+    examples:
+      - attribution
+      - advertising-clause
+      - patent-grant
+      - copyleft
+      - file-level-copyleft
+      - network-use
+      - anti-cloud
+      - non-commercial
+      - source-available
+      - warranty-disclaimer
+  related_licenses:
+    description: Related archive IDs or external identifiers.
+  historical_notes:
+    description: Brief context and significance.
+  verification_notes:
+    description: Notes on provenance, uncertainty, variants, or unresolved questions.
