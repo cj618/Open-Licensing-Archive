@@ -1,0 +1,35 @@
+id: business-source-license-1.1
+title: Business Source License 1.1
+short_name: BSL 1.1
+spdx_id: BUSL-1.1
+family: source-available-modern
+era: modern
+organisation: MariaDB Corporation / Business Source License stewards
+first_known_date: null
+source_url: https://mariadb.com/bsl11/
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: false
+fsf_free: false
+gpl_compatible: false
+license_style: source-available
+key_terms:
+  - source-available
+  - delayed-open-source
+  - use-restriction
+  - change-license
+historical_notes: >
+  Business Source License 1.1 is important for comparison with historical source
+  access models and modern open-core business strategies. It is source-available
+  rather than open source during the restriction period, with later conversion to
+  an open source licence specified by the licensor.
+verification_notes: >
+  Seeded from MariaDB's BSL 1.1 page. Later work should add examples of adopted
+  BSL projects and their change licences.
+related_licenses:
+  - sspl-1.0
+  - commons-clause-1.0
+  - agpl-3.0
