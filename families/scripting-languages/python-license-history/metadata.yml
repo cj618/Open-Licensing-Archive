@@ -1,0 +1,30 @@
+id: python-license-history
+title: Python licence history
+short_name: Python licence history
+spdx_id: null
+family: scripting-languages
+era: 1990s
+organisation: Python Software Foundation and predecessors
+first_known_date: null
+source_url: https://docs.python.org/3/license.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: varies-by-version
+license_style: permissive
+key_terms:
+  - attribution
+  - warranty-disclaimer
+historical_notes: >
+  Python's licence history is important for Unix-like scripting culture and for
+  tracking version-specific licensing changes across the language's stewardship.
+verification_notes: >
+  Seeded from official Python documentation. Later work should split this into
+  version-specific entries.
+related_licenses:
+  - mit-x11
+  - bsd-3-clause
