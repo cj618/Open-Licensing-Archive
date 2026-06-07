@@ -1,0 +1,33 @@
+id: gpl-2.0
+title: GNU General Public License version 2
+short_name: GPL 2.0
+spdx_id: GPL-2.0-only
+family: gnu
+era: 1990s
+organisation: Free Software Foundation
+first_known_date: 1991
+source_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+archive_url: null
+source_type: canonical-license
+redistribution_status: full-text-ok
+text_status: canonical-baseline
+verification: primary-source
+osi_approved: true
+fsf_free: true
+gpl_compatible: n/a
+license_style: strong-copyleft
+key_terms:
+  - copyleft
+  - source-availability
+  - warranty-disclaimer
+historical_notes: >
+  GPLv2 became one of the central licences of the 1990s free software and open
+  source ecosystem, including the Linux kernel. It is essential to the archive's
+  Unix replacement and commercial Unix context.
+verification_notes: >
+  Seeded from the GNU Project canonical text. Later work should add metadata for
+  GPL-2.0-or-later notices and major source-tree applications.
+related_licenses:
+  - gpl-1.0
+  - gpl-3.0
+  - lgpl-2.1
